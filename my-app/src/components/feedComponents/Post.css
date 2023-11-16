@@ -1,0 +1,114 @@
+.post-nickname,
+.post-group {
+  cursor: pointer;
+}
+
+.post-nickname:hover,
+.post-group:hover {
+  text-decoration: underline;
+}
+
+#new-post {
+  transition: 0.3s;
+}
+
+#select-users-container {
+  position: absolute;
+  padding: 45px;
+  top: 100px;
+  left: calc(50% - 220px);
+  width: 400px;
+  max-height: 580px;
+  background-color: white;
+  max-height: 600px;
+  overflow: auto;
+  z-index: 1;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
+}
+
+#create-event-container {
+  position: absolute;
+  padding: 45px;
+  top: 100px;
+  left: calc(50% - 220px);
+  width: 400px;
+  height: 450px;
+  max-height: 500px;
+  background-color: white;
+  max-height: 600px;
+  overflow: auto;
+  z-index: 1;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
+}
+
+#add-event-container-button {
+  padding: 9px 27px;
+  opacity: 0.75;
+  background-color: rgb(188, 216, 250);
+  border: 1px solid lightblue;
+  transition: 0.3s;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#set-users-btn {
+  width: 330px;
+  height: 50px;
+  background-color: rgb(125, 192, 250);
+  position: relative;
+  left: calc(50% - 165px);
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+#set-users-btn:hover {
+  background-color: rgb(80, 169, 248);
+  transition: 0.3s;
+}
+
+.btn1 {
+  background-color: rgb(0, 105, 198);
+  border: none;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: rgb(0, 73, 136);
+  transition: 0.3s;
+}
+
+.edit-post {
+  color: gray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-post:hover {
+  transform: scale(1.05);
+  color: rgb(4, 70, 176);
+  transition: 0.3s;
+}
+
+.delete-post-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.comment-btn {
+  color: #a6badd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.comment-btn:hover {
+  transform: scale(1.1);
+  color: #385fa1;
+  transition: 0.4s;
+}

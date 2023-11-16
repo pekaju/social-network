@@ -1,0 +1,242 @@
+.messages-list, .shortcuts-list {
+    height: calc(100vh - 30px);
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: rgb(192, 223, 250, 0.1);
+}
+
+.messages-list {
+    width:370px;
+    overflow-x: hidden;
+}
+
+.shortcuts-list {
+    width: 330px;
+}
+
+.message-list-item {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    margin-left:15px;
+    border-radius: 10px;
+    width:330px;
+    cursor: pointer;
+}
+
+.message-list-item:hover {
+    background-color: rgb(192, 223, 250, 0.8);
+    border:1px solid lightblue;
+    box-sizing:content-box;
+    padding:9px;
+}
+
+.message-list-message {
+    padding-top:5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.unread {
+    font-weight: 700;
+}
+
+.shortcut-item {
+    display: flex;
+    padding: 6px 10px;
+    margin: 5px;
+    margin-left:15px;
+    border-radius: 10px;
+    width:80%;
+    cursor: pointer;
+}
+
+.shortcut-item:hover {
+    background-color: rgb(192, 223, 250, 0.8);
+    border:1px solid lightblue;
+    box-sizing:content-box;
+    padding:5px 9px;
+}
+
+.send-comment-icon:hover {
+    color: rgb(8, 49, 235);
+  }
+
+.group-card {
+    width:270px;
+    height:300px;
+    box-shadow: 1px 0 15px 2px gray;
+    margin:20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.group-card:hover {
+    box-shadow: 1px 0 15px 5px gray;
+}
+
+.group-card-img {
+    padding-top:20px;
+    padding-left:50px;
+}
+
+.group-card-img-inner {
+    height:170px;
+    width:170px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.group-card-name {
+    margin-top:0;
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.group-card-description {
+    text-align: center;
+    font-size:15px;
+}
+
+.profile-card {
+    width:190px;
+    height:240px;
+    box-shadow: 1px 0 15px 2px gray;
+    margin:15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-card:hover {
+    box-shadow: 1px 0 15px 5px gray;
+}
+
+.profile-card-img {
+    padding-top:40px;
+    padding-left:10px;
+    display:flex;
+    justify-content: center;
+}
+
+.profile-card-img-inner {
+    height:110px;
+    width:110px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-card-name {
+    margin-top:0;
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.chat-message-inner{
+    position: absolute;
+    bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 55px;
+}
+
+.chat-row {
+    display: flex;
+    padding:5px 25px;
+    height:50px;
+    position: relative;
+    border-bottom: 1px solid lightblue;
+    cursor: pointer;
+    background-color: white;
+}
+.chat-row:hover {
+    background-color: aliceblue;
+}
+.group-card-small {
+    width:290px;
+    height:100px;
+    box-shadow: 1px 0 15px 5px lightgray;
+    margin:6px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+}
+
+.group-card-small:hover {
+    box-shadow: 1px 0 15px 5px gray;
+}
+
+.group-card-small-img {
+    padding-top:0px;
+    padding-left:0px;
+}
+
+.group-card-small-img-inner {
+    margin-left:12px;
+    margin-top:12px;
+    height:70px;
+    width:70px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.group-card-small-name {
+    margin-top:15px;
+    margin-bottom:0;
+    text-align: center;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.group-card-small-description {
+    text-align: center;
+    margin: 5px 10px;
+    font-size:15px;
+    height:35px;
+    overflow: hidden;
+}
+
+.profile-card-small {
+    width:100px;
+    height:150px;
+    box-shadow: 1px 0 15px 2px lightgray;
+    margin:5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profile-card-small:hover {
+    box-shadow: 1px 0 15px 5px gray;
+}
+
+.profile-card-small-img {
+    padding-top:15px;
+    padding-left:15px;
+}
+
+.profile-card-small-img-inner {
+    height:70px;
+    width:70px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.profile-card-small-name {
+    margin-top:10px;
+    text-align: center;
+    font-weight: 500;
+    font-size:16px;
+}

@@ -1,0 +1,23 @@
+FROM golang:1.20.2
+
+# Set the working directory
+WORKDIR /backend
+
+# Copy only the Go module files and download dependencies
+COPY backend/go.mod backend/go.sum ./
+RUN go mod download
+
+# Copy the rest of your application code
+COPY backend/. .
+
+# Install sql-migrate tool
+RUN go install github.com/rubenv/sql-migrate/...@latest
+
+# Apply database migrations
+RUN sql-migrate up
+
+# Expose the necessary port
+EXPOSE 3001
+
+# Command to start your application
+CMD ["go", "run", "."]

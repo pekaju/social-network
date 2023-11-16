@@ -1,0 +1,30 @@
+#my-groups-list, #other-groups-list {
+    max-width: 1100px;
+    margin-left:10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+#groups-container {
+    position: relative;
+}
+
+#create-group-button {
+    position:absolute;
+    top:-3px;
+    right:45px;
+    padding:9px 27px;
+    opacity: 0.75;
+    background-color: rgb(188, 216, 250);
+    border:1px solid lightblue;
+    transition: 0.3s;
+    font-weight:600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#create-group-button:hover {
+    transition: 0.3s;
+    opacity: 1;
+}

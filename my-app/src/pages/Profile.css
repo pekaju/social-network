@@ -1,0 +1,79 @@
+.user-data-field {
+    margin-bottom:20px;
+}
+
+.user-data-field__label {
+    font-size:15px;
+    font-weight: 600;
+}
+
+#user-bio {
+    padding:20px;
+    padding-bottom:30px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+#user-message-btn {
+    position: absolute;
+    right: 200px;
+    bottom:30px;
+}
+
+#user-follow-btn {
+    position: absolute;
+    right: 100px;
+    bottom:30px;
+}
+
+#user-follow-btn, #user-message-btn {
+    padding:7px 17px;
+    background-color: rgb(188, 216, 250);
+    border:1px solid lightblue;
+    transition: 0.3s;
+    font-weight:600;
+    cursor: pointer;
+}
+
+#user-follow-btn:hover, #user-message-btn:hover {
+    background-color: rgb(149, 194, 250);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+#user-groups {
+    padding: 20px 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+#user-groups-list {
+    max-width: 1100px;
+    margin-left:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+#user-followers, #user-followings {
+    padding: 20px 30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid lightgray;
+}
+
+#user-followers-list, #user-followings-list {
+    max-width: 1100px;
+    margin-left:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+#user-posts {
+    padding: 20px 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+#user-posts-list{
+    margin-left:-20px;
+    margin-right:20px;
+}
